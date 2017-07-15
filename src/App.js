@@ -1,9 +1,11 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
+import { randomizeBgColors } from 'background-color-randomizer';
 
 class App extends Component {
   render() {
+    randomizeBgColors();
     return (
       <div className="App">
         <div className="App-header">
